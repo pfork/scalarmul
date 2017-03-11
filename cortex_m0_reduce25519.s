@@ -8,7 +8,7 @@
 // Generated and tested with C++ functions in the test subdirectory and on the target.
 //
 
-	.cpu cortex-m0
+	.cpu cortex-m3
 	.fpu softvfp
 	.eabi_attribute 20, 1
 	.eabi_attribute 21, 1

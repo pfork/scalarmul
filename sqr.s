@@ -4,6 +4,10 @@
 //
 
  .align	2
+	.cpu cortex-m3
+	.fpu softvfp
+	.code	16
+	.thumb_func
 	.global	square256_asm
 	.type	square256_asm, %function
 square256_asm:

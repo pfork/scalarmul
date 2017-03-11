@@ -11,7 +11,7 @@
 // Not yet tested on target hardware.
 
 
-	.cpu cortex-m0
+	.cpu cortex-m3
 	.fpu softvfp
 	.eabi_attribute 20, 1
 	.eabi_attribute 21, 1

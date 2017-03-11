@@ -1,4 +1,8 @@
  .align	2
+	.cpu cortex-m3
+	.fpu softvfp
+	.code	16
+	.thumb_func
 	.global	multiply256x256_asm
 	.type	multiply256x256_asm, %function
 multiply256x256_asm:
